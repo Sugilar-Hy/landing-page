@@ -133,7 +133,7 @@ div.container{
     width: 200px;
 }
 
-p{
+p.text-hero {
     color: black;
 }
 
@@ -162,3 +162,138 @@ img {
 
 
 /* Section More Information */
+.more-information {
+    background-color: whitesmoke;
+    display: block;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items : center;
+    padding: 50px;
+}
+
+.header {
+    font-size : 30px;
+    font-weight: 900;
+}
+
+/* Section More Information -> container-card */
+.container-card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding : 0px 20px 50px 20px ;
+}
+
+.container-card img {
+    height: 150px;
+    width: 250px;
+    transition: scale 0.15;
+}
+
+.container-card img:hover {
+    scale: 0.95;
+}
+
+.card p {
+    max-width: 250px;
+}
+
+span.bold {
+    font-weight: bold;
+}
+
+/* Section quote */
+div.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height : 500px;
+}
+
+div.container-quote {
+    border-radius: 10px;
+    padding: 100px 150px 100px 150px;
+}
+
+p.text {
+    color: black;
+    font-style: italic;
+}
+
+p.text-author {
+    text-align: right;
+    font-size: 10px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* call to action */
+
+div.call-to-action  {
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+div.container-call {
+    background-color: rgb(0, 123, 255);
+    border-radius: 10px;
+    display: flex;
+    justify-content : space-between;
+    padding: 50px;
+    width: 700px;
+}
+
+
+span.bold-call {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+.text-call  {
+    color: white;
+    line-height: 25px;
+}
+
+div.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button.btn-signup-call {
+    background: rgb(0, 123, 255);
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 130px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+
+button.btn-signup-call:hover{
+    background-color: white;
+    color: black;
+}
+
+/* footer */
+div.footer {
+    background-color: rgb(0, 78, 162);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    height: 30px;
+}
+
+.bottom {
+    color: white;
+    font-size: 15px;
+}
